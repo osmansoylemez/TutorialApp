@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		A358BD3C1E2E193A00DAEB56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BD3B1E2E193A00DAEB56 /* main.m */; };
-		A358BD3F1E2E193A00DAEB56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BD3E1E2E193A00DAEB56 /* AppDelegate.m */; };
-		A358BD421E2E193A00DAEB56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BD411E2E193A00DAEB56 /* ViewController.m */; };
 		A358BD451E2E193A00DAEB56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A358BD431E2E193A00DAEB56 /* Main.storyboard */; };
 		A358BD471E2E193A00DAEB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A358BD461E2E193A00DAEB56 /* Assets.xcassets */; };
 		A358BD4A1E2E193A00DAEB56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A358BD481E2E193A00DAEB56 /* LaunchScreen.storyboard */; };
+		A358BD571E2E19C400DAEB56 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BD561E2E19C400DAEB56 /* MainViewController.m */; };
+		A358BD5A1E2E19CA00DAEB56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BD591E2E19CA00DAEB56 /* AppDelegate.m */; };
+		A358BD5D1E2E1B2D00DAEB56 /* OSGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BD5C1E2E1B2D00DAEB56 /* OSGlobals.m */; };
+		A358BD601E2E1B4500DAEB56 /* OSSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BD5F1E2E1B4500DAEB56 /* OSSectionModel.m */; };
+		A358BD631E2E1B5000DAEB56 /* OSRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BD621E2E1B5000DAEB56 /* OSRowModel.m */; };
+		A358BD671E2E1FD600DAEB56 /* AutoLayoutTutorial1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BD661E2E1FD600DAEB56 /* AutoLayoutTutorial1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A358BD371E2E193A00DAEB56 /* TutorialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A358BD3B1E2E193A00DAEB56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A358BD3D1E2E193A00DAEB56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A358BD3E1E2E193A00DAEB56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A358BD401E2E193A00DAEB56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A358BD411E2E193A00DAEB56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A358BD441E2E193A00DAEB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A358BD461E2E193A00DAEB56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A358BD491E2E193A00DAEB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A358BD4B1E2E193A00DAEB56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A358BD551E2E19C400DAEB56 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A358BD561E2E19C400DAEB56 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A358BD581E2E19CA00DAEB56 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A358BD591E2E19CA00DAEB56 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A358BD5B1E2E1B2D00DAEB56 /* OSGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSGlobals.h; sourceTree = "<group>"; };
+		A358BD5C1E2E1B2D00DAEB56 /* OSGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSGlobals.m; sourceTree = "<group>"; };
+		A358BD5E1E2E1B4500DAEB56 /* OSSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSectionModel.h; sourceTree = "<group>"; };
+		A358BD5F1E2E1B4500DAEB56 /* OSSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSectionModel.m; sourceTree = "<group>"; };
+		A358BD611E2E1B5000DAEB56 /* OSRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSRowModel.h; sourceTree = "<group>"; };
+		A358BD621E2E1B5000DAEB56 /* OSRowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSRowModel.m; sourceTree = "<group>"; };
+		A358BD651E2E1FD600DAEB56 /* AutoLayoutTutorial1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTutorial1ViewController.h; sourceTree = "<group>"; };
+		A358BD661E2E1FD600DAEB56 /* AutoLayoutTutorial1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTutorial1ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +70,10 @@
 		A358BD391E2E193A00DAEB56 /* TutorialApp */ = {
 			isa = PBXGroup;
 			children = (
-				A358BD3D1E2E193A00DAEB56 /* AppDelegate.h */,
-				A358BD3E1E2E193A00DAEB56 /* AppDelegate.m */,
-				A358BD401E2E193A00DAEB56 /* ViewController.h */,
-				A358BD411E2E193A00DAEB56 /* ViewController.m */,
-				A358BD431E2E193A00DAEB56 /* Main.storyboard */,
-				A358BD461E2E193A00DAEB56 /* Assets.xcassets */,
-				A358BD481E2E193A00DAEB56 /* LaunchScreen.storyboard */,
-				A358BD4B1E2E193A00DAEB56 /* Info.plist */,
+				A358BD511E2E19AF00DAEB56 /* Controller */,
+				A358BD521E2E19AF00DAEB56 /* Model */,
+				A358BD531E2E19AF00DAEB56 /* View */,
+				A358BD541E2E19AF00DAEB56 /* ViewController */,
 				A358BD3A1E2E193A00DAEB56 /* Supporting Files */,
 			);
 			path = TutorialApp;
@@ -74,9 +82,61 @@
 		A358BD3A1E2E193A00DAEB56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A358BD431E2E193A00DAEB56 /* Main.storyboard */,
+				A358BD461E2E193A00DAEB56 /* Assets.xcassets */,
+				A358BD481E2E193A00DAEB56 /* LaunchScreen.storyboard */,
+				A358BD4B1E2E193A00DAEB56 /* Info.plist */,
 				A358BD3B1E2E193A00DAEB56 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A358BD511E2E19AF00DAEB56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A358BD581E2E19CA00DAEB56 /* AppDelegate.h */,
+				A358BD591E2E19CA00DAEB56 /* AppDelegate.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A358BD521E2E19AF00DAEB56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A358BD5B1E2E1B2D00DAEB56 /* OSGlobals.h */,
+				A358BD5C1E2E1B2D00DAEB56 /* OSGlobals.m */,
+				A358BD5E1E2E1B4500DAEB56 /* OSSectionModel.h */,
+				A358BD5F1E2E1B4500DAEB56 /* OSSectionModel.m */,
+				A358BD611E2E1B5000DAEB56 /* OSRowModel.h */,
+				A358BD621E2E1B5000DAEB56 /* OSRowModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A358BD531E2E19AF00DAEB56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A358BD541E2E19AF00DAEB56 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A358BD641E2E1FB900DAEB56 /* AutoLayout */,
+				A358BD551E2E19C400DAEB56 /* MainViewController.h */,
+				A358BD561E2E19C400DAEB56 /* MainViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A358BD641E2E1FB900DAEB56 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A358BD651E2E1FD600DAEB56 /* AutoLayoutTutorial1ViewController.h */,
+				A358BD661E2E1FD600DAEB56 /* AutoLayoutTutorial1ViewController.m */,
+			);
+			path = AutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +211,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A358BD421E2E193A00DAEB56 /* ViewController.m in Sources */,
-				A358BD3F1E2E193A00DAEB56 /* AppDelegate.m in Sources */,
+				A358BD671E2E1FD600DAEB56 /* AutoLayoutTutorial1ViewController.m in Sources */,
+				A358BD631E2E1B5000DAEB56 /* OSRowModel.m in Sources */,
+				A358BD5D1E2E1B2D00DAEB56 /* OSGlobals.m in Sources */,
 				A358BD3C1E2E193A00DAEB56 /* main.m in Sources */,
+				A358BD571E2E19C400DAEB56 /* MainViewController.m in Sources */,
+				A358BD601E2E1B4500DAEB56 /* OSSectionModel.m in Sources */,
+				A358BD5A1E2E19CA00DAEB56 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6VU528TR84;
 				INFOPLIST_FILE = TutorialApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.osmansoylemez.TutorialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6VU528TR84;
 				INFOPLIST_FILE = TutorialApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.osmansoylemez.TutorialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

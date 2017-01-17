@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AutoLayoutTutorial1ViewController.h
 //  TutorialApp
 //
 //  Created by KSMacbook on 17/01/17.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface AutoLayoutTutorial1ViewController : UIViewController
 
 @end
-
