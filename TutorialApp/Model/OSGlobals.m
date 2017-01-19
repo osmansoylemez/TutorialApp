@@ -27,7 +27,22 @@
     t2.viewControllerIdentifier = @"AutoLayoutTutorial2ViewControllerIdentifier";
     [layoutSection addRowModel:t2];
     
+    OSRowModel *t3 = [OSRowModel new];
+    t3.title = @"Tutorial 3";
+    t3.viewControllerIdentifier = @"AutoLayoutTutorial3ViewControllerIdentifier";
+    [layoutSection addRowModel:t3];
+    
     [array addObject:layoutSection];
+    
+    OSSectionModel *componentSection = [OSSectionModel new];
+    componentSection.title = @"Component";
+    
+    OSRowModel *s1 = [OSRowModel new];
+    s1.title = @"UIScrollview";
+    s1.viewControllerIdentifier = @"ScrollviewTutorial1ViewControllerIdentifier";
+    [componentSection addRowModel:s1];
+
+    [array addObject:componentSection];
     
     return array;
 }

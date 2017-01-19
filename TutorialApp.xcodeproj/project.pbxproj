@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31549B71E2F9CAD00BC830C /* ScrollviewTutorial1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31549B61E2F9CAD00BC830C /* ScrollviewTutorial1ViewController.m */; };
+		A31549BA1E2F9CDA00BC830C /* ScrollviewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31549B91E2F9CDA00BC830C /* ScrollviewItemViewController.m */; };
+		A31549BE1E2FB03500BC830C /* QuizModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A31549BD1E2FB03500BC830C /* QuizModel.m */; };
+		A31549C11E2FBEF200BC830C /* OSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31549C01E2FBEF200BC830C /* OSScrollView.m */; };
 		A358BD3C1E2E193A00DAEB56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BD3B1E2E193A00DAEB56 /* main.m */; };
 		A358BD451E2E193A00DAEB56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A358BD431E2E193A00DAEB56 /* Main.storyboard */; };
 		A358BD471E2E193A00DAEB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A358BD461E2E193A00DAEB56 /* Assets.xcassets */; };
@@ -20,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A31549B51E2F9CAD00BC830C /* ScrollviewTutorial1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollviewTutorial1ViewController.h; sourceTree = "<group>"; };
+		A31549B61E2F9CAD00BC830C /* ScrollviewTutorial1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollviewTutorial1ViewController.m; sourceTree = "<group>"; };
+		A31549B81E2F9CDA00BC830C /* ScrollviewItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollviewItemViewController.h; sourceTree = "<group>"; };
+		A31549B91E2F9CDA00BC830C /* ScrollviewItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollviewItemViewController.m; sourceTree = "<group>"; };
+		A31549BC1E2FB03500BC830C /* QuizModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizModel.h; sourceTree = "<group>"; };
+		A31549BD1E2FB03500BC830C /* QuizModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizModel.m; sourceTree = "<group>"; };
+		A31549BF1E2FBEF200BC830C /* OSScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSScrollView.h; sourceTree = "<group>"; };
+		A31549C01E2FBEF200BC830C /* OSScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSScrollView.m; sourceTree = "<group>"; };
 		A358BD371E2E193A00DAEB56 /* TutorialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A358BD3B1E2E193A00DAEB56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A358BD441E2E193A00DAEB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A31549B41E2F9C9D00BC830C /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A31549B51E2F9CAD00BC830C /* ScrollviewTutorial1ViewController.h */,
+				A31549B61E2F9CAD00BC830C /* ScrollviewTutorial1ViewController.m */,
+				A31549B81E2F9CDA00BC830C /* ScrollviewItemViewController.h */,
+				A31549B91E2F9CDA00BC830C /* ScrollviewItemViewController.m */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		A31549BB1E2FB02500BC830C /* ScrollViewTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				A31549BC1E2FB03500BC830C /* QuizModel.h */,
+				A31549BD1E2FB03500BC830C /* QuizModel.m */,
+			);
+			path = ScrollViewTutorial;
+			sourceTree = "<group>";
+		};
 		A358BD2E1E2E193A00DAEB56 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +135,7 @@
 		A358BD521E2E19AF00DAEB56 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A31549BB1E2FB02500BC830C /* ScrollViewTutorial */,
 				A358BD5B1E2E1B2D00DAEB56 /* OSGlobals.h */,
 				A358BD5C1E2E1B2D00DAEB56 /* OSGlobals.m */,
 				A358BD5E1E2E1B4500DAEB56 /* OSSectionModel.h */,
@@ -116,6 +149,8 @@
 		A358BD531E2E19AF00DAEB56 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A31549BF1E2FBEF200BC830C /* OSScrollView.h */,
+				A31549C01E2FBEF200BC830C /* OSScrollView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -123,6 +158,7 @@
 		A358BD541E2E19AF00DAEB56 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A31549B41E2F9C9D00BC830C /* ScrollView */,
 				A358BD641E2E1FB900DAEB56 /* AutoLayout */,
 				A358BD551E2E19C400DAEB56 /* MainViewController.h */,
 				A358BD561E2E19C400DAEB56 /* MainViewController.m */,
@@ -213,11 +249,15 @@
 			files = (
 				A358BD671E2E1FD600DAEB56 /* AutoLayoutTutorial1ViewController.m in Sources */,
 				A358BD631E2E1B5000DAEB56 /* OSRowModel.m in Sources */,
+				A31549BE1E2FB03500BC830C /* QuizModel.m in Sources */,
 				A358BD5D1E2E1B2D00DAEB56 /* OSGlobals.m in Sources */,
 				A358BD3C1E2E193A00DAEB56 /* main.m in Sources */,
+				A31549B71E2F9CAD00BC830C /* ScrollviewTutorial1ViewController.m in Sources */,
+				A31549BA1E2F9CDA00BC830C /* ScrollviewItemViewController.m in Sources */,
 				A358BD571E2E19C400DAEB56 /* MainViewController.m in Sources */,
 				A358BD601E2E1B4500DAEB56 /* OSSectionModel.m in Sources */,
 				A358BD5A1E2E19CA00DAEB56 /* AppDelegate.m in Sources */,
+				A31549C11E2FBEF200BC830C /* OSScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +416,7 @@
 				A358BD501E2E193A00DAEB56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
